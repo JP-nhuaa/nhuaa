@@ -23,10 +23,10 @@
                     <h1 class="display-5 fw-bold text-body-emphasis hero-title">New Hampshire Union Accountability Advocates</h1>
                     <div class="col-lg-6 mx-auto">
                         <p class="lead mb-4 hero-content">Promoting transparency, accountability, and democratic principles within union leadership.</p>
-                        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+                        <!-- <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
                             <button type="button" class="btn btn-primary custom-button btn-lg px-4 gap-3">Join NHUAA</button>
                             <button type="button" class="btn btn-outline-light btn-lg px-4">Subscribe</button>
-                        </div>
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -36,7 +36,7 @@
             <p class="col-lg-8 mx-auto lead text-center">
                 New Hampshire Union Accountability Advocates (NHUAA) was established to promote transparency, accountability, and democratic principles within union leadership. Our mission is to inform union members about elections, provide a platform for raising issues, and offer support to members.
             </p>
-            <a href="pages/about.php" class="btn btn-primary btn-lg custom-button">Learn More</a>
+            <!-- <a href="pages/about.php" class="btn btn-primary btn-lg custom-button">Learn More</a> -->
         </div>
         <div class="container py-5">
             <h2 class="text-body-emphasis text-center">Our Focus</h2>
@@ -82,7 +82,7 @@
 
         <!-- Contact Section -->
         
-        <div class="contact py-4">
+        <!-- <div class="contact py-4">
             <div class="row no-gutters justify-content-center">
                 <div class="col-md-8 text-center">
                     <h2 class="mb-4">Contact Us</h2>
@@ -92,7 +92,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
     <!-- Footer -->
     <footer>

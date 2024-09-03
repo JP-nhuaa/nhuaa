@@ -129,6 +129,10 @@ body {
   color: #154270;
 }
 
+.member {
+  font-weight: 700;
+}
+
 .contact {
   background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)),
     url("/assets/images/contact.jpeg") no-repeat center center;
@@ -305,6 +309,14 @@ button[type="submit"]:hover {
   background-color: #f9f9f9;
 }
 
+.news-date {
+  font-size: 1rem;
+  color: #666666;
+  font-style: italic;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+
 .news h2 {
   font-size: 2.5rem;
   color: #004080;
@@ -363,6 +375,40 @@ button[type="submit"]:hover {
 
 .news-article a:hover {
   background-color: #0059b3;
+}
+
+/* Table Styles */
+.candidates-table {
+  width: 100%;
+  margin: 2rem 0;
+  border-collapse: collapse;
+  font-family: Arial, sans-serif;
+}
+
+.candidates-table th,
+.candidates-table td {
+  border: 1px solid #ccc;
+  padding: 0.75rem;
+  text-align: left;
+}
+
+.candidates-table th {
+  background-color: #154270;
+  color: #fff;
+  font-weight: 600;
+}
+
+.candidates-table td {
+  background-color: #f9f9f9;
+  font-weight: bold;
+}
+
+.candidates-table td:first-child {
+  background-color: #e6f0ff;
+}
+
+.candidates-table tr:hover td {
+  background-color: #e0e0e0;
 }
 
 /* Modal styles */
