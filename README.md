@@ -18,8 +18,8 @@ This project is a web-based platform designed to empower and support union membe
 
 Before you begin, ensure you have met the following requirements:
 
-- **PHP**: The server must have PHP installed (version 7.4 or higher recommended).
-- **Web Server**: A web server like Apache or Nginx is required to serve the PHP files.
+- **Code Editor**: Ensure you have a code editor installed, such as VScode, Sublime Text, or your editor of choice.
+- **Server**: If your code editor does not have server capabilities (VScode can run a live server locally), ensure you have a way to test your code.
 - **Git**: Ensure Git is installed for version control (if you plan to track versions using GitHub).
 
 ### Steps
@@ -31,7 +31,7 @@ Before you begin, ensure you have met the following requirements:
 3. **Set Up Your Web Server**
 
    - Configure your web server to serve the project files from the root directory of this project.
-   - Ensure the server points to the `index.php` as the entry point for the website.
+   - Ensure the server points to the `index.html` as the entry point for the website.
 
 4. **Open in Browser**
 
@@ -39,10 +39,10 @@ Before you begin, ensure you have met the following requirements:
 
 ## File Structure
 
-- `index.php`: The main entry point of the website, typically the homepage.
-- `about.php`: Contains information about the organization.
-- `mission.php`: Explains the union's mission and goals.
-- `news.php`: Displays the latest news and updates related to the union.
+- `index.html`: The main entry point of the website.
+- `about.html`: Contains information about the organization.
+- `mission.html`: Explains the union's mission and goals.
+- `news.html`: Displays the latest news and updates related to the union.
 
 ## Contributing
 
