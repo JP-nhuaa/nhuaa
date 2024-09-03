@@ -377,12 +377,36 @@ button[type="submit"]:hover {
   background-color: #0059b3;
 }
 
+/* Container for Image and Caption */
+.image-container {
+  float: left;
+  margin: 1rem 1.5rem 1rem 0;
+  max-width: 40%;
+  text-align: center;
+  border-bottom: 1px solid black;
+}
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.image-caption {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.5rem;
+  font-style: italic;
+}
+
 /* Table Styles */
 .candidates-table {
   width: 100%;
   margin: 2rem 0;
   border-collapse: collapse;
   font-family: Arial, sans-serif;
+  clear: both;
 }
 
 .candidates-table th,
@@ -400,11 +424,11 @@ button[type="submit"]:hover {
 
 .candidates-table td {
   background-color: #f9f9f9;
-  font-weight: bold;
 }
 
 .candidates-table td:first-child {
   background-color: #e6f0ff;
+  font-weight: bold;
 }
 
 .candidates-table tr:hover td {
