@@ -434,6 +434,11 @@ button[type="submit"]:hover {
   background-color: #e0e0e0;
 }
 
+.disclosure {
+  font-size: 0.8rem;
+  color: #888;
+  font-style: italic;
+}
 /* Modal styles */
 .modal {
   display: none;
