@@ -27,7 +27,7 @@ body {
 }
 
 .hero {
-  background-image: url("../images/hero2.jpeg");
+  background-image: url("/assets/images/hero2.jpeg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -439,6 +439,17 @@ button[type="submit"]:hover {
   color: #888;
   font-style: italic;
 }
+
+.pdf-link {
+  text-decoration: none;
+  color: #1d6ec0;
+}
+
+.pdf-link:hover {
+  color: #cd8e33;
+  transition: 0.3s ease;
+}
+
 /* Modal styles */
 .modal {
   display: none;
